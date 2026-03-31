@@ -31,6 +31,8 @@ public class ArraySameOrNot {
 		} else {
 			status = false;
 		}
+		
+		
 		if (status = true) {
 			System.out.println("same1");
 		} else

@@ -1,0 +1,21 @@
+package Day9;
+
+public class countwordsinstaring {
+	public static void main(String[] args) {
+
+		String s = "Welcme To java";
+		int count = 1;
+		for (int i = 0; i < s.length() - 1; i++) {
+
+			if (s.charAt(i) == ' ' && (s.charAt(i + 1) != ' ')) {
+
+				count++;
+
+			}
+
+		}
+		System.out.println(count);
+
+	}
+
+}
