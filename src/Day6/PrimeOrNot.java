@@ -3,7 +3,7 @@ package Day6;
 public class PrimeOrNot {
 	public static void main(String[] args) {
 
-		int num = 11;
+		int num = 12;
 		int temp = 0;
 
 		for (int i = 1; i < num; i++) {
