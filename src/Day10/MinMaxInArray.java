@@ -12,7 +12,7 @@ public class MinMaxInArray {
 			if (a[i] > max) {
 
 				max = a[i];
-
+System.out.println();
 			}
 
 		}
